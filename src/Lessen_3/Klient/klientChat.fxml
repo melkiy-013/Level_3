@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #fafafa;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Lessen_3.Klient.ChatController">
+   <children>
+      <Button fx:id="sey" layoutX="499.0" layoutY="346.0" mnemonicParsing="false" text="Отправить" />
+      <TextArea fx:id="window" prefHeight="291.0" prefWidth="600.0" />
+      <TextField fx:id="text" layoutX="14.0" layoutY="346.0" prefHeight="27.0" prefWidth="418.0" />
+   </children>
+</AnchorPane>

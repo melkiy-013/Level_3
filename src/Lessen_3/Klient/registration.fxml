@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #2E3348;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Lessen_3.Klient.RegController">
+    <children>
+        <AnchorPane layoutY="84.0" prefHeight="316.0" prefWidth="600.0" style="-fx-background-color: #FFFFFF;">
+            <children>
+                <PasswordField fx:id="password" layoutX="217.0" layoutY="96.0" promptText="Пароль" />
+                <TextField fx:id="login" layoutX="217.0" layoutY="46.0" promptText="Логин" />
+              <Button fx:id="registr" layoutX="246.0" layoutY="228.0" mnemonicParsing="false" prefHeight="13.0" prefWidth="102.0" text="Регистрация" />
+            <TextField fx:id="nIck" layoutX="217.0" layoutY="151.0" promptText="Ник" />
+            </children>
+        </AnchorPane>
+        <Label layoutX="245.0" layoutY="14.0" text="MyChat" textFill="WHITE">
+            <font>
+                <Font name="Bangla MN" size="26.0" />
+            </font>
+        </Label>
+    </children>
+</AnchorPane>
